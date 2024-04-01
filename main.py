@@ -4,6 +4,10 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 
 import questionary
+import asyncio
+
+from modules import *
+from modules.tx_checker import get_tx_count
 from loguru import logger
 from questionary import Choice
 
