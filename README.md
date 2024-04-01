@@ -19,41 +19,41 @@ pip install -r requirements.txt
 python main.py
 ```
 ---
-<h2>🚨 Возможности</h2>
+<h2>🚨 Opportunities</h2>
 
-1. Депозит и вывод ETH через официальный мост
+1. Deposit and withdraw ETH through the official bridge
 
-2. Бридж через Orbiter
+2. Bridge via Orbiter
 
-3. Врап/анврап ETH
+3. Wrap/unwrap ETH
 
-4. Свапы через Uniswap, PancakeSwap, Woofi, Baseswap, AlienSwap, Maverick, Odos, 1inch, Xy.Finance, OpenOcean (для агрегаторов включена рефка, 1% от суммы транзы идет мне, приходят не с вашего кошелька, а с контракта агрегатора, можно вырубить в конфиге)
+4. Swaps through Uniswap, PancakeSwap, Woofi, Baseswap, AlienSwap, Maverick, Odos, 1inch, Xy.Finance, OpenOcean (referral included for aggregators, 1% of the transfer amount goes to me, they come not from your wallet, but from the aggregator contract, can be disabled in the config)
 
 5. Bungee Refuel
 
-6. Aave (депозит/вывод)
+6. Aave (deposit/withdrawal)
 
-7. Минт free NFT на Mint.Fun (работает с функцией контракта "mint", другие не прокатят, смотрите в Rabby или в эксплорере)
+7. Mint free NFT on Mint.Fun (works with the “mint” contract function, others will not work, look in Rabby or in the explorer)
 
-8. Mint + Brdige NFT через L2Telegraph (только в arb nova)
+8. Mint + Brdige NFT via L2Telegraph (arb nova only)
 
-9. Отправка месседжей через L2Telegraph (только в arb nova)
+9. Sending messages via L2Telegraph (only in arb nova)
 
-10. Слив токенов в ETH
+10. Draining tokens into ETH
 
-11. Возможность мультисвапов - совершает указанное количество обменов в указанных дексах
+11. Possibility of multi-swaps - makes the specified number of exchanges in the specified dexes
 
-12. Кастомные роуты - действия которые будут выполняться последовательно, либо в рандомном порядке
+12. Custom routes - actions that will be performed sequentially or in random order
 
-13. Чекер количества транз
+13. Checker for the number of transactions
 
 ---
-<h2>⚙️ Настройка</h2>
+<h2>⚙️ Settings</h2>
 
-1) Все основные настройки производятся в файле settings.py, внутри присутствует информация, что и где писать
+1) All basic settings are made in the settings.py file, inside there is information on what and where to write
 
-2) В файле accounts.txt указываем свои приватные ключи
+2) In the accounts.txt file we indicate our private keys
 
-3) В файле rpc.json по пути data/rpc.json можем менять rpc на свои
+3) In the rpc.json file along the path data/rpc.json we can change rpc to our own
 
-Инфа по апдейтам да и просто лайф блог –– https://t.me/sybilwave
+Information on updates and just a life blog –– https://t.me/sybilwave
